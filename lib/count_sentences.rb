@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-    self.scan(/\w+/).size
+    self.to_s.scan(/\w+/).size
   end
 end
