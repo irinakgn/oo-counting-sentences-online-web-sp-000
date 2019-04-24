@@ -2,7 +2,7 @@ require 'pry'
 
 class String
 
-  def sentence?(input)
+  def sentence?
     self.end_with?("!")
   end
 
